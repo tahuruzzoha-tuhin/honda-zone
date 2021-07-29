@@ -1,4 +1,7 @@
-/* common classes  */
+
+/*********************\
+      Main Style
+\*********************/
 .self-style{
     margin:10rem auto;
 }
@@ -10,13 +13,21 @@
     background-color: #E76F51;
 }
 
-
 .panda-bg-info{
     background-color: #FEEAE9;
 }
 
-/* common classes end  */
+.fsize{
+    font-size: 14px;
+}
 
+.hr-width{
+    width: 58px;
+}
+
+/*********************\
+    Optional Style
+\*********************/
 .bg-header{
     background-color: #264653;
     padding: 20px 0 95px 0;
@@ -39,8 +50,11 @@
 .bg-footer{
     background-color: #0B0D17;
 }
-/* media quires */
 
+
+/*************************\
+    Custom Media Query
+\*************************/
 @media screen and (max-width: 768px) {
     .header-image{
         width: 321px;
